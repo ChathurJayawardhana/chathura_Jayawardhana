@@ -6,10 +6,10 @@ import Hero from '../assets/thara.jpg'
 
 export default function Home() {
   return (
-    <div className='py-6 pt-16'>
+    <div className='max-w-auto h-[600px] w-full py-4 px-4 relative'>
     <Grid container spacing={4} justifyContent={'center'} >
-       <Grid item xs={12} md={6} lg={7} xl={8}>
-        <div className='pt-20 pl-40 '>
+       <Grid item xs={12} sm={12} md={7} lg={8}>
+        <div className='pl-40 sm:px-8 sm:pr-10 md:pl-28'>
         <h2 className='text-4xl sm:text-7xl  font-bold text-black'>
                 I am a Frontend Developer
             </h2>
@@ -20,22 +20,24 @@ export default function Home() {
              in translating design concepts into elegant and responsive interfaces."
             </p>
         </div>
-        <div className='flex space-x-4'>
+        
+      
+       </Grid>
+
+       <Grid item xs={12} sm={12} md={5} lg={4}>
+         <img src={Hero}  className='pr-4 w-[500px] h-[500px] rounded-full sm:px-4'/>
+       </Grid>
+
+
+    </Grid>
+
+
+
+    <Grid container>
+      <Grid item>
+      <div className='flex space-x-4 pl-40 pt-10'>
                 <div>
                 <Link
-              to="portfolio"
-              smooth
-              duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
-            >
-              Portfolio
-              <span className="group-hover:rotate-90 duration-300">
-                < MdKeyboardArrowRight size={25} className="ml-1" />
-              </span>
-            </Link>
-                </div>
-               <div>
-               <Link
               to="contact"
               smooth
               duration={500}
@@ -46,16 +48,11 @@ export default function Home() {
                 < MdKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
-               </div>
+                </div>
+               
                 
             </div>
-      
-       </Grid>
-
-       <Grid item xs={12} md={6} lg={5} xl={4}>
-         <img src={Hero}  className='pr-4 w-[500px] h-[500px] rounded-full sm:px-4'/>
-       </Grid>
-
+      </Grid>
 
     </Grid>
 
