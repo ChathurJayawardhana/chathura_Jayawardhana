@@ -11,8 +11,8 @@ export default function  () {
          <div className='flex flex-col justify-center'>
           <>
        
-           <h1 className='md:text-4xl sm:text-3xl  text-6xl font-bold py-'>  I am a Frontend Developer</h1>
-           <p className='pt-8'>"Hello, I'm  a frontend developer dedicated to 
+           <h1 className=' md:text-4xl sm:text-3xl lg:text-6xl font-bold py-'>  I am a Frontend Developer</h1>
+           <p className='pt-8 md:text-4xl sm:text-3xl lg:text-4xl text-orange-800'>"Hello, I'm  a frontend developer dedicated to 
             crafting seamless, user-centric web experiences. 
             With expertise in HTML, CSS, JavaScript and ReactJS I specialize
              in translating design concepts into elegant and responsive interfaces."</p>
