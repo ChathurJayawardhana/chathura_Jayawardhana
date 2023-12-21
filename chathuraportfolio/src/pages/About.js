@@ -1,6 +1,7 @@
 import React from 'react';
 import Aboutimg from '../assets/logo.jpg';
 import Technical from '../components/Technical'
+import Testimonials from '../components/Testimonials';
 
 export default function About() {
   return (
@@ -19,7 +20,7 @@ export default function About() {
             I work as a <b>Frontend</b> and <b>React </b> developer and have worked with data analysts using
             <b>PowerBI</b> and as well as <b>Figma</b> design. I enjoy hearing things out. I've gained a lot of knowledge
             by paying close attention. I've discovered how to combine work and life. I am a very content individual. I
-            had exciting dreams and ended up studying computing and applied mathematics at the University of Jaffna in
+            had exciting dreams and ended up studying BSc applied mathematics & Computing at the University of Jaffna in
             Sri Lanka.
           </p>
         </div>
@@ -27,6 +28,9 @@ export default function About() {
        
      <div className=''>
      <Technical/>
+     </div>
+     <div>
+      <Testimonials/>
      </div>
          
     </div>
