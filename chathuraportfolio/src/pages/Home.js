@@ -3,7 +3,7 @@ import Hero from '../assets/thara.jpg'
 
 export default function  () {
   return (
-    <div className='w-full bg-white py-16 px-4'>
+    <div className='w-full bg-black/25 py-16 px-4'>
       
        
        <div className='w-[1520] mx-auto grid md:grid-cols-2'>
