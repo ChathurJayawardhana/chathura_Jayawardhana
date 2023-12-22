@@ -44,7 +44,7 @@ const service = [
 ]
 
   return (
-    <div className='w-full bg-white py-16 px-8'>
+    <div name="service" className='w-full bg-white py-16 px-8'>
        <h3 className='text-orange-500 font-bold text-2xl text-center'>Services</h3>
        <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-6 py-4 px-4'>
         {

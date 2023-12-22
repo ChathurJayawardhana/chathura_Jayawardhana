@@ -49,14 +49,14 @@ src:sampath,
   ];
 
   return (
-    <div className='max-w-screen-lg mx-auto p-2  flex flex-col justify-center w-full h-full'>
+    <div className='max-w-screen-lg mx-auto p-2 z-1 flex flex-col justify-center w-full h-full '>
       <h1 className='text-green-700 font-bold text-2xl px-4 pt-2 '><u>Testimonials</u></h1>
       <div className='lg:hidden w-full py-6'>
         {/* For small screens, display one column */}
         <Splide options={{ perPage: 1, gap: "1rem", drag: "free", arrows: "false" }}>
           {topClient.map((item) => (
             <SplideSlide key={item.id}>
-              <div className='border-none hover:scale-105 duration-300 bg-black text-white py-4 px-4 '>
+              <div className='border-none hover:scale-105 duration-300 bg-black text-white py-4 px-4 z-5'>
                 <div className='flex justify-between item-center'>
                   <div>
                     <h2 className='text-2xl'>{item.name}</h2>

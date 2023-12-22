@@ -18,23 +18,23 @@ export default function  () {
         },
       
         {
-            id:4,
+            id:3,
             link:'service'
         },
         {
-            id:5,
+            id:4,
             link:'portfolio'
         },
         {
-            id:6,
+            id:5,
             link:'contact'
         },
 
     ]
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-gray-700 '>
+    <div className='flex justify-between items-center w-full h-14 px-4 text-gray-700 bg-white '>
      <div className='flex gap-4'>
-     <img className='w-18 h-16 pl-4 rounded-full' src={Logo}/>
+     <img className='w-18 h-14 pl-4 rounded-full' src={Logo}/>
 
      <div className='hidden md:hidden lg:block text-bold'>
          <h2 className='pt-3  text-black/60 text-2xl'>
@@ -49,7 +49,7 @@ export default function  () {
         <ul className='hidden md:flex'>
 
         {links.map(({id,link})=>(
-           <li key={id} className='px-4 text-xl  cursor-pointer font-bold  text-black/60 capitalize hover:scale-105 duration-200'>
+           <li key={id} className='px-4 text-xl  cursor-pointer font-bold  text-gray-700 capitalize hover:scale-105 duration-200'>
            <Link to={link} smooth duration={500}>
               {link}
             </Link>
@@ -88,4 +88,3 @@ export default function  () {
     </div>
   )
 }
-
