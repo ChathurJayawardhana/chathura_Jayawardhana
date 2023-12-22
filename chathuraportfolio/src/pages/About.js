@@ -29,7 +29,7 @@ export default function About() {
      <div className=''>
      <Technical/>
      </div>
-     <div>
+     <div >
       <Testimonials/>
      </div>
          

@@ -18,10 +18,6 @@ export default function  () {
         },
       
         {
-            id:3,
-            link:'resume'
-        },
-        {
             id:4,
             link:'service'
         },

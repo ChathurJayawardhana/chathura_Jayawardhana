@@ -56,7 +56,7 @@ src:sampath,
         <Splide options={{ perPage: 1, gap: "1rem", drag: "free", arrows: "false" }}>
           {topClient.map((item) => (
             <SplideSlide key={item.id}>
-              <div className='border-none hover:scale-105 duration-300 bg-black text-white py-4 px-4'>
+              <div className='border-none hover:scale-105 duration-300 bg-black text-white py-4 px-4 '>
                 <div className='flex justify-between item-center'>
                   <div>
                     <h2 className='text-2xl'>{item.name}</h2>
@@ -81,12 +81,12 @@ src:sampath,
         </Splide>
       </div>
 
-      <div className='hidden lg:flex max-w-[1520px] m-auto py-6 '>
+      <div className='hidden lg:flex max-w-[1520px] m-auto py-6  '>
         {/* For medium and larger screens, display two columns */}
-        <Splide options={{ perPage: 3, gap: "1rem", drag: "free", arrows: "false" }}>
+        <Splide options={{ perPage:3, gap: "1rem", drag: "free", arrows: "false" }}>
           {topClient.map((item) => (
             <SplideSlide key={item.id}>
-              <div className='border-none hover:scale-105 duration-300 bg-black text-white py-4 px-4'>
+              <div className='border-none  hover:scale-105 duration-300 bg-black text-white py-4 px-4 mr-4'>
                 <div className='flex justify-between item-center'>
                   <div>
                     <h2 className='text-2xl'>{item.name}</h2>
