@@ -5,7 +5,7 @@ import Testimonials from '../components/Testimonials';
 
 export default function About() {
   return (
-    <div name="about" className='w-full bg-white py-16 px-8'>
+    <div name="about" className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full  px-8'>
       <h3 className='text-orange-500 font-bold text-2xl text-center'> About Me</h3>
       <div className='w-[1520] mx-auto pt-6 pr-6 flex flex-col items-center'>
         <div className='pt-4'>

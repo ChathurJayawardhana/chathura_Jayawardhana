@@ -11,10 +11,10 @@ export default function  () {
   };
   
   return (
-    <div name="home" className='w-full  py-16 px-4 ' style={sectionStyle}>
+    <div name="home" className='w-auto  py-16 px-4 ' style={sectionStyle}>
       
        
-       <div className='w-[1520] mx-auto grid md:grid-cols-2 ' >
+       <div className='w-[1520] mx-auto grid md:grid-cols-2 z-10' >
          <img className='w-[300px] rounded-full mx-auto my-4' src={Hero}/>
          <div className='flex flex-col justify-center'>
           <>
