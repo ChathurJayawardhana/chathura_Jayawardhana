@@ -37,10 +37,10 @@ const Portfolio = () => {
       name="portfolio"
       className="bg-white w-full  md:h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full py-16 px-8">
         <div className="pb-8">
         <h3 className='text-orange-500 font-bold text-2xl text-center'>Portfolio</h3>
-          <p className="py-6">Check out some of my work right here</p>
+          
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -51,9 +51,9 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center bg-gradient-to-r from-cyan-500 to-blue-500">
                 <a href={repositories[id - 1]} target="_blank" rel="noopener noreferrer">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button className="w-1/2 px-6 py-3 m-4  duration-200 hover:scale-105 text-white font-bold">
                     Code
                   </button>
                 </a>
