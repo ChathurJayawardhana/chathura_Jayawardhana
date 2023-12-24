@@ -43,7 +43,7 @@ const Portfolio = () => {
           
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
           {portfolios.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
@@ -51,9 +51,9 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div className="flex items-center justify-center bg-gradient-to-r from-cyan-500 to-blue-500">
+              <div className="flex items-center justify-center ">
                 <a href={repositories[id - 1]} target="_blank" rel="noopener noreferrer">
-                  <button className="w-1/2 px-6 py-3 m-4  duration-200 hover:scale-105 text-white font-bold">
+                  <button className="w-1/2 px-6 py-3 m-4  duration-200 hover:scale-105 font-2xl font-bold">
                     Code
                   </button>
                 </a>
