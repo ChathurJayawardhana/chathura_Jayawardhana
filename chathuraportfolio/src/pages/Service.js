@@ -41,7 +41,7 @@ const service = [
   return (
     <div name="service" className='max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full  px-8'>
        <h3 className='text-orange-500 font-bold text-2xl text-center'>Services</h3>
-       <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-6 pt-8 py-4 px-4 pl-2 shadow-md shadow-gray-600 rounded-lg'>
+       <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-6 pt-8 py-4 px-4 pl-2 mt-3 shadow-md shadow-gray-600 rounded-lg'>
         {
             service.map((item)=>(
                 <div className='border-none hover:scale-105 hover:bg-gradient-to-r from-cyan-500 to-blue-500 duration-300  text-black/60 py-4 px-4  '>

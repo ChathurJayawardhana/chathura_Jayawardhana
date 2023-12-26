@@ -37,15 +37,15 @@ export default function Contact() {
         <h3 className='text-orange-500 font-bold text-2xl text-center pt-16'>Contact</h3>
         <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-6 pt-8 py-4 px-4  shadow-md shadow-green-300 rounded-lg'>
             {contactme.map((item)=>(
-                <div key={item.id} className='pt-4 bg-yellow-600'>
+                <div key={item.id} className='pt-4 bg-gradient-to-r bg-green-200'>
 
                     
-                  <div className='px-8 '>{item.icon}</div>
+                  <div className='px-8 flex justify-center text-xl '>{item.icon}</div>
                   
                   
 
                 
-                    <div>{item.detail}</div>
+                    <div  className='px-8 flex justify-center pt-3 text-black font-md'>{item.detail}</div>
                     
                     
                 </div>

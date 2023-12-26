@@ -25,7 +25,7 @@ const ContactmeLayout = () => {
 
   return (
    
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
+      <div className="flex flex-col p-4 mt-6 justify-center max-w-screen-lg mx-auto h-full ">
         <div className="pb-8">
           
          
@@ -37,19 +37,19 @@ const ContactmeLayout = () => {
               type="text"
               name="user_name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none bg-green-200"
             />
             <input
               type="email"
               name="user_email"
               placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
+              className="my-4 p-2 bg-transparent border-2 rounded-md text-black focus:outline-none bg-green-200"
             />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none bg-green-200"
             ></textarea>
 
             <input
