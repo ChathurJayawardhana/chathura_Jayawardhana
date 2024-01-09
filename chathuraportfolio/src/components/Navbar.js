@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 export default function Navbar() {
 
-  
+  //this is comment
   const [nav, setNav] = useState(false);
 
   const links = [
