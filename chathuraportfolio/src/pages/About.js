@@ -30,7 +30,7 @@ export default function About() {
      <Technical/>
      </div>
      <div >
-      <Testimonials/>
+      {/*<Testimonials/>*/}
      </div>
          
     </div>

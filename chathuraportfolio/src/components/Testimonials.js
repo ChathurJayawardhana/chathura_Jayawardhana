@@ -21,7 +21,7 @@ export default function Testimonials() {
       id:2,
       name:"Maduka",
       position:"Fiver Client",
-      comment:"Great Seller-Responsiive,Communicative and willing to interate and converge towards a satisfactory output.Would Recomond",
+      comment:"Great Work Alltime . Thank You",
       src:maduka,
   },
   {

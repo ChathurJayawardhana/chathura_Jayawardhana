@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../assets/thara.jpg'
-import bgimage from '../assets/backgroundport.jpg'
+import bgimage from '../assets/banner2.gif'
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-scroll';
 
@@ -14,7 +14,7 @@ export default function  () {
   };
   
   return (
-    <div name="home" className='w-auto  py-16 px-4 z-10' style={sectionStyle}>
+    <div name="home" className='w-auto   py-16 px-4 z-10' style={sectionStyle}>
       
        
        <div className='w-[1520] mx-auto grid md:grid-cols-2 z-10' >
