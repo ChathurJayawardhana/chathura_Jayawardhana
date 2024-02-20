@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../assets/thara.jpg'
+import Hero from '../assets/Thara trans.png'
 import bgimage from '../assets/banner2.gif'
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-scroll';
